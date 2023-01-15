@@ -71,6 +71,14 @@ public class Main {
     }
     public static void task5 () {
         System.out.println("Задача 5");
+        byte allColor = 120;
+        byte white = 2;
+        byte brown = 4;
+        int classes = allColor / (white+brown);
+        int allWhite = classes * white;
+        int allBrown = classes * brown;
+        System.out.println("В школе, где " + classes + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски");
+
     }
     public static void task6 () {
         System.out.println("Задача 6");
