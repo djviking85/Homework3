@@ -49,6 +49,12 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3");
+        byte luda = 23;
+        byte anna = 27;
+        byte katya = 30;
+        int allChildren = luda + anna + katya;
+        short allPaper = 480;
+        System.out.println("На каждого ученика рассчитано "+ allPaper / allChildren + " листов бумаги.");
     }
     public static void task4 () {
         System.out.println("Задача 4");
