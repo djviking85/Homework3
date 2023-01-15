@@ -58,6 +58,16 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
+        System.out.println("Машина производит 16 бутылов в 2 минуты");
+        byte minute = 8;
+        int twenty = minute * 20;
+        System.out.println("Машина за 20 минут произведет " + twenty + " бутылочек.");
+        int day =  minute * 60 * 12;
+        System.out.println("Машина произведет за день " + day + " бутылок.");
+        int threeDays = day * 3;
+        System.out.println("Машина произвела за 3 дня "+ threeDays + " бутылок.");
+        int mounth = day * 30;
+        System.out.println("Машина произвела за месяц " + mounth + " бутылей.");
     }
     public static void task5 () {
         System.out.println("Задача 5");
