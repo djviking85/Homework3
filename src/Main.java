@@ -97,6 +97,14 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        int allGramms = 7000;
+        int lightDay = 250;
+        int hardDay = 500;
+        int allLightDays = allGramms / lightDay;
+        int allHardDays = allGramms / hardDay;
+        int SredneDays = (allHardDays+allLightDays) / 2;
+        System.out.println(" Если спортсмен будет терять 250 грамм, то он потеряет 7кг за " + allLightDays + " дней, а если по 500 грамм, то за " + allHardDays + " дней. А в среднем потребуется дней эдак - "+ SredneDays + " дней.");
+
 
     }
     public static void task8 () {
