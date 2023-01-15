@@ -109,5 +109,24 @@ public class Main {
     }
     public static void task8 () {
         System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        float upMasha = masha * 1.1F;
+        float upDenis = denis * 1.1F;
+        float upKristina = kristina * 1.1F;
+        int yearMasha = masha *12;
+        int yearDenis = denis *12;
+        int yearKristina = kristina *12;
+        float upYearMasha = upMasha *12;
+        float upYearDenis = upDenis *12;
+        float upYearKristina = upKristina *12;
+        float raznicaMasha = upYearMasha - yearMasha;
+        float raznicaDenis = upYearDenis - yearDenis;
+        float raznicaKris = upYearKristina - yearKristina;
+        System.out.println( "После повышения Маша получит - " + upMasha + ", Денис - " + upDenis + " и Кристина - " + upKristina+  " рублей" );
+        System.out.println( "Годовой доход Марии составит "+ yearMasha+ " и после повышения "+ upYearMasha + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaMasha + " рублей.");
+        System.out.println( "Годовой доход Денис составит "+ yearDenis+ " и после повышения "+ upYearDenis + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaDenis + " рублей.");
+        System.out.println( "Годовой доход Кристины составит "+ yearKristina+ " и после повышения "+ upYearKristina + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaKris + " рублей.");
     }
 }
