@@ -128,5 +128,6 @@ public class Main {
         System.out.println( "Годовой доход Марии составит "+ yearMasha+ " и после повышения "+ upYearMasha + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaMasha + " рублей.");
         System.out.println( "Годовой доход Денис составит "+ yearDenis+ " и после повышения "+ upYearDenis + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaDenis + " рублей.");
         System.out.println( "Годовой доход Кристины составит "+ yearKristina+ " и после повышения "+ upYearKristina + " рублей, соотвественно." + " Годовой доход вырос на "+ raznicaKris + " рублей.");
+
     }
 }
