@@ -80,8 +80,20 @@ public class Main {
         System.out.println("В школе, где " + classes + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски");
 
     }
-    public static void task6 () {
+    public static void task6 ()
+    {
         System.out.println("Задача 6");
+        byte banana = 5;
+        int milk = 200;
+        byte ice = 2;
+        byte eggs = 4;
+        int allBananasGramms = banana * 80;
+        float allMilkGramms = milk * 1.05F;
+        int allIceGramms = ice * 100;
+        int allEggsGramms = eggs * 70;
+        float gramms = allEggsGramms+allBananasGramms+allIceGramms+allMilkGramms;
+        float kg = gramms / 1000;
+        System.out.println(" У нас выйдет такой смеси " + gramms+ " в граммах и " +kg+ " килограмм");
     }
     public static void task7 () {
         System.out.println("Задача 7");
